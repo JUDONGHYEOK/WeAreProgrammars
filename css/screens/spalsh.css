@@ -1,0 +1,74 @@
+@keyframes toNothing{
+   100%{
+    transform:translateX(-100%);
+  }
+}
+@keyframes toOriginal{
+  from{
+    transform:translate(-100%);
+  }to{
+    transform:translateX(0);
+  }
+}
+
+@keyframes toRotate{
+  to{
+    transform:rotate(180deg) translatex(-10vh);
+    color:var(--blue);
+  }
+}
+.main{
+  display: flex;
+  justify-content: flex-start;
+}
+.splash {
+  height: 100vh;
+  background-color: var(--blue);
+  color: var(--font-color);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.splash__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40px;
+}
+.splash__main__title {
+  font-size: 90px;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.splash__main__subtitle {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 4px 0px;
+}
+
+.toLogin {
+  position: fixed;
+  right:0;
+  margin-right: 40px;
+  cursor: pointer;
+  color: azure;
+}
+.toNothing{
+  animation: toNothing 1s ease-in-out forwards;
+}
+.toOriginal{
+  animation: toOriginal 1s ease-in-out forwards;
+}
+.toRotate{
+  animation: toRotate 1s ease-in-out forwards;
+}
+.login{ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loginNone{
+  display:none;
+}
