@@ -34,18 +34,25 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 40px;
+  border: 5px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 .splash__main__title {
   font-size: 90px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-weight: 600;
+  border-bottom:2px solid white;
+  padding-bottom: 20px;
 }
 
 .splash__main__subtitle {
   font-size: 30px;
   font-weight: 500;
   padding: 4px 0px;
+}
+.splash__main__subtitle:last-child{
+  padding-bottom:20px;
 }
 
 .toLogin {
@@ -54,6 +61,10 @@
   margin-right: 40px;
   cursor: pointer;
   color: azure;
+  transition: color 0.5s ease-in-out;
+}
+.toLogin:hover{
+  color:lemonchiffon;
 }
 .toNothing{
   animation: toNothing 1s ease-in-out forwards;

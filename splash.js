@@ -8,15 +8,15 @@ function handleNext() {
   if (toUp) {
     splash.classList.add("toNothing");
     toNextButton.classList.add("toRotate");
-    window.setTimeout(remove("toOriginal"), 1000);
+    console.log(splash.classList);
+    window.setTimeout(remove, 1000,"toOriginal");
     login.classList.remove("loginNone");
     login.classList.add("toNothing");
-
-    console.log("click");
     toUp = false;
   } else {
     splash.classList.add("toOriginal");
-    window.setTimeout(remove("toNothing"), 1000);
+    console.log(splash.classList);
+    window.setTimeout(remove, 1000,"toNothing");
     toNextButton.classList.remove("toRotate");
     login.classList.add("loginNone");
     toUp = true;
@@ -25,6 +25,7 @@ function handleNext() {
 function remove(animation) {
   splash.classList.remove(animation);
   login.classList.add("loginNew");
+  console.log(splash.classList);
 }
 
 function init() {
