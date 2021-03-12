@@ -1,34 +1,26 @@
-const splash = document.querySelector(".splash"),
-  toNextButton = document.querySelector(".toLogin"),
-  login = document.querySelector(".login");
+const iconContainer = document.querySelector(".splash__icon__container"),
+  icon = iconContainer.querySelector("i");
 
-let toUp = true;
-
-function handleNext() {
-  if (toUp) {
-    splash.classList.add("toNothing");
-    toNextButton.classList.add("toRotate");
-    console.log(splash.classList);
-    window.setTimeout(remove, 1000,"toOriginal");
-    login.classList.remove("loginNone");
-    login.classList.add("toNothing");
-    toUp = false;
-  } else {
-    splash.classList.add("toOriginal");
-    console.log(splash.classList);
-    window.setTimeout(remove, 1000,"toNothing");
-    toNextButton.classList.remove("toRotate");
-    login.classList.add("loginNone");
-    toUp = true;
-  }
+function handleHover() {
+  icon.style.animation = "rotate 1s linear infinite";
+  console.log("hover");
 }
-function remove(animation) {
-  splash.classList.remove(animation);
-  login.classList.add("loginNew");
-  console.log(splash.classList);
+function handleOut() {
+  icon.style.animation = "";
 }
-
+function handleClick(e) {
+  iconContainer.querySelector("h2").innerHTML = "";
+  iconContainer.style.animation = "toBig 2s linear forwards";
+  e.preventDefault();
+  setTimeout(submit, 2000);
+}
+function submit() {
+  const toMove = document.querySelector("a");
+  toMove.submit();
+}
 function init() {
-  toNextButton.addEventListener("click", handleNext);
+  iconContainer.addEventListener("mouseover", handleHover);
+  iconContainer.addEventListener("mouseout", handleOut);
+  iconContainer.addEventListener("click", handleClick);
 }
 init();
