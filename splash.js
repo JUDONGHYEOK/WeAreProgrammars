@@ -12,11 +12,10 @@ function handleClick(e) {
   iconContainer.querySelector("h2").innerHTML = "";
   iconContainer.style.animation = "toBig 2s linear forwards";
   e.preventDefault();
-  setTimeout(submit, 2000);
+  setTimeout(submit, 2300);
 }
 function submit() {
-  const toMove = document.querySelector("a");
-  toMove.submit();
+  location.href = "main.html";
 }
 function init() {
   iconContainer.addEventListener("mouseover", handleHover);
