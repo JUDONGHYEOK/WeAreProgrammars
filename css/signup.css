@@ -1,0 +1,226 @@
+body {
+  background-color: #00587a;
+}
+
+.input {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0 auto;
+  height: 500px;
+  padding-top: 150px;
+}
+.header {
+  width: 800px;
+  height: 80px;
+}
+.SignUp__header {
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  height: 200px;
+}
+input::placeholder {
+  color: skyblue;
+}
+.input__id {
+  margin-bottom: 50px;
+  border-radius: 5px;
+  width: 500px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px white solid;
+}
+.input__pw {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  width: 500px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px white solid;
+}
+
+.signup__agreement {
+  padding-top: 20px;
+  margin: auto;
+  color: white;
+  display: block;
+}
+
+.font-weight-bold {
+  font-weight: bolder;
+  /* color: var(--font-color); */
+  color: skyblue;
+}
+.form__agreement {
+  width: max-content;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.sign {
+  width: 120px;
+  height: 100px;
+  color: var(--font-color);
+  float: right;
+  margin-top: 32px;
+  margin-right: 120px;
+  font-weight: 400;
+  display: block;
+  font-size: 20px;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Merriweather", serif;
+}
+button {
+  margin: 0 auto;
+  background: #00587a;
+  color: #fff;
+  border: none;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  border-radius: 30px;
+  margin: 0 auto;
+}
+button:hover {
+  background: #fff;
+  color: skyblue;
+}
+button:before,
+button:after {
+  content: "";
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #1aab8a;
+  transition: 400ms ease all;
+}
+button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+button:hover:before,
+button:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+.signup-btn__confirm {
+  display: block;
+  margin: 0 auto;
+}
+.signup-btn {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  margin-top: 45px;
+}
+
+.login {
+  position: absolute;
+  right: 80px;
+}
+
+.login__btn {
+  width: 140px;
+  height: 45px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: white;
+  background-color: #00587a;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.login__btn:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(34, 147, 223, 0.4);
+  color: skyblue;
+  transform: translateY(-7px);
+}
+
+.centered {
+  position: absolute;
+  padding-bottom: 8px;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  width: 0;
+  z-index: -1;
+  height: 100%;
+  background: #fff;
+  padding-bottom: 5px;
+  box-shadow: 10px 10px 0 0 skyblue;
+  transition: width 0.3s ease;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label {
+  padding-left: 30px;
+  text-shadow: 1px 1px 0 black;
+  transition: color 0.3s ease;
+}
+
+input[type="checkbox"]:checked + label {
+  color: #e06969;
+}
+
+input[type="checkbox"]:checked ~ .bg {
+  width: 100%;
+}
+
+input[type="checkbox"]:checked ~ .bg:hover {
+  box-shadow: 3px 3px 0 0 green;
+}
+
+input[type="checkbox"] + label .qmark {
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+
+input[type="checkbox"]:checked + label .qmark {
+  opacity: 0;
+}
+
+input[type="checkbox"] + label .fstop {
+  opacity: 0;
+  position: relative;
+  left: -20px;
+  transition: opacity 0.2s ease;
+}
+
+input[type="checkbox"]:checked + label .fstop {
+  opacity: 1;
+  color: #e06969;
+}
+.form-agree_checkbox {
+  padding-top: 25px;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
