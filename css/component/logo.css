@@ -1,0 +1,17 @@
+.logo{
+   float: left;
+   width: 200px;
+   height: 70px;
+   text-align: center;
+   margin-left: 10px;
+   position: absolute;
+   
+}
+
+.logo__link {
+   color: var(--font-color);
+   font-weight: 700;
+   font-size: 50px;
+   font-family: 'Abril Fatface', cursive;
+}
+

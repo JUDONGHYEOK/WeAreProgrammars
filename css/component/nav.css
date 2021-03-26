@@ -1,0 +1,29 @@
+.nav{
+   box-sizing: border-box;
+   width: 1100px;
+   height: 70px;
+   left: 320px;
+   font-family: 'Abril Fatface', cursive;
+   font-family: 'Merriweather', serif;
+   float: left;
+   position: absolute;
+
+}
+
+.nav__item {
+   float : left;
+   width: 250px;
+   padding: 10px;
+   margin-left: 5px;
+}
+
+.nav__link {
+   display: block;
+   padding: 20px 40px;
+   font-size: 20px;
+   color: var(--font-color);
+}
+
+.nav__item:hover {
+   text-decoration: underline;
+}

@@ -1,0 +1,63 @@
+.header-login {
+   width: 100%;
+   height: 220px;
+   margin-top: 90px;
+}
+
+body {
+   background-color: var(--blue);
+}
+
+.signin{
+   width: 500px;
+   height: 400px;
+   margin: 0px auto;
+   font-family: 'Abril Fatface', cursive;
+   font-family: 'Merriweather', serif;
+   color: var(--font-color);
+   position: relative;
+}
+.signin-header{
+   font-size: 30px;
+   text-align: center;
+   height: 60px;
+
+}
+
+.signin-input__id, .signin-input__pw{
+   font-size: 20px;
+   background-color: transparent;
+   border: none;
+   border-bottom: 1px solid var(--font-color);
+   width: 100%;
+   height: 50px;
+   padding: 20px 5px 5px;
+   color: var(--font-color);
+}
+
+.signin-input__letter--id{
+   padding-left: 10px;
+   font-size: 15px;
+   position: absolute;
+   top: 105px;
+}
+.signin-input__letter--pw{
+   padding-left: 10px;
+   font-size: 15px;
+   position: absolute;
+   top: 185px;
+}
+
+.login__button{
+   margin-top: 50px;
+   background-color: transparent;
+   color: var(--font-color);
+   font-size: 30px;
+   width: 100%;
+   height: 50px;
+   border: none;
+   font-family: 'Abril Fatface', cursive;
+   font-family: 'Merriweather', serif;
+}
+
+
