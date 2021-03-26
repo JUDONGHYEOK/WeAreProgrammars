@@ -1,9 +1,11 @@
 .logo{
    float: left;
    width: 200px;
-   height: 50px;
+   height: 70px;
    text-align: center;
    margin-left: 10px;
+   position: absolute;
+   
 }
 
 .logo__link {

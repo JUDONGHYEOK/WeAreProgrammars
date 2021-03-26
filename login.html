@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <title>We are Programmers : LOG IN</title>
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
    <div class="header-login">
@@ -12,7 +12,8 @@
             <h1>WAP</h1>
          </a>
       </div>
-      <div class="sign">
+  
+      <div class="sign-login">
          <div><a href="#" class="sign__link--focused"></a>SIGN UP</div>
       </div>
    </div>
@@ -21,7 +22,7 @@
       <h2 class="signin-header">SIGN IN</h2>
       <form action="">
          <div class="signin-input">
-            <input type="text" class="signin-input__id" autocomplete="off" required><label class="signin-input__letter--id" for="signin-input__id">USER NAME</label>
+            <input type="text" class="signin-input__id" autocomplete="off" required name="inputs" value=""><label class="signin-input__letter--id" for="signin-input__id">USER NAME</label>
          </div>
          <div class="signin-input">
             <input type ="password" class="signin-input__pw" autocomplete="off" required> <label class="signin-input__letter--pw" for="signin-input__pw">PASSWORD</label>
@@ -31,6 +32,6 @@
          </div>
       </form>
    </div>
-
+   <script src="login.js"></script>
 </body>
 </html>

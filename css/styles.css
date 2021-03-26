@@ -1,5 +1,5 @@
 @import "reset.css";
-@import "variable.css";
+@import "variables.css";
 
 /* components */
 @import "component/logo.css";
@@ -10,6 +10,8 @@
 @import "screens/main.css";
 @import "screens/sign.css";
 @import "screens/login.css";
+@import "screens/sign-login.css";
+@import "screens/splash.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');

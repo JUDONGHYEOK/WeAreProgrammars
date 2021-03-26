@@ -1,33 +1,38 @@
 .sign{
-   width: 120px;
-   height: 100px;
-  color: var(--font-color);
-  float: right;
-  margin-top: 32px;
-  margin-right: 120px;
-  font-weight: 400;
-  display: block;
-  font-size: 20px;
-  font-family: 'Abril Fatface', cursive;
+   box-sizing: border-box;
+   width: 200px;
+   height: 70px; 
+   color: var(--font-color);
+   font-size: 20px;
+   font-family: 'Abril Fatface', cursive;
    font-family: 'Merriweather', serif;
+   text-align: center;
+   left: 1700px;
+   padding: 30px 10px 0px;
+   position: absolute;
+ 
 }
-
 .sign__list{
-   margin-top: 25px;
-   display: none;
-   transition: 2s ease-in;
+   margin-top: 15px;
 }
-
-.sign__item {
+.sign__item{
    padding-top: 15px;
+   display: none;
+   padding-left: 25px;
 }
-.sign__link--focused:hover {
-   text-decoration: underline;
+@keyframes sign-on{
+   from{
+      opacity: 0;
+      transform:rotateX(70deg);
+      
+   }to{
+      opacity:1;
+      transform:rotateX(0deg);
+
+   }
 }
 
-div :hover > .sign__list{
-   display: block;
-}
+
 
 
 
