@@ -33,9 +33,7 @@ function idClick() {
 }
 
 function idNone(){
-   if(id.value != "")
-      id_letter_Move();
-   else
+   if(id.value == "")
       id_letter_Movedown();
    }
 
@@ -45,10 +43,8 @@ function pwClick() {
 
 
 function pwNone(){
-  if(pw.value!="")
-     pw_letter_Moveup();
-  else
-   pw_letter_Movedown();
+  if(pw.value=="")
+    pw_letter_Movedown();
    }
 
 

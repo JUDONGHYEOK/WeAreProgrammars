@@ -1,14 +1,8 @@
-.header-login {
-   width: 100%;
-   height: 220px;
-   margin-top: 90px;
-}
-
 body {
    background-color: var(--blue);
 }
-
 .signin{
+   top: 180px;
    width: 500px;
    height: 400px;
    margin: 0px auto;
@@ -23,7 +17,6 @@ body {
    height: 60px;
 
 }
-
 .signin-input__id, .signin-input__pw{
    font-size: 20px;
    background-color: transparent;

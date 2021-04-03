@@ -1,5 +1,4 @@
-
-const sign_btn = document.querySelector(".sign");
+const sign_btn = document.querySelector(".sign__link");
 const sign__lists=document.querySelectorAll(".sign__item");
 
 
