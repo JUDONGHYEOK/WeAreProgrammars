@@ -2,7 +2,7 @@ body {
   background-color: #00587a;
 }
 
-.input {
+.SignUp--input {
   width: 500px;
   margin: 0 auto;
   padding: 0 auto;
@@ -23,7 +23,7 @@ body {
 input::placeholder {
   color: skyblue;
 }
-.input__id {
+.signUp--input__id {
   margin-bottom: 50px;
   border-radius: 5px;
   width: 500px;
@@ -32,8 +32,9 @@ input::placeholder {
   border: none;
   background-color: transparent;
   border-bottom: 1px white solid;
+  color: white;
 }
-.input__pw {
+.signUp--input__pw {
   margin-bottom: 15px;
   border-radius: 5px;
   width: 500px;
@@ -42,6 +43,7 @@ input::placeholder {
   border: none;
   background-color: transparent;
   border-bottom: 1px white solid;
+  color: white;
 }
 
 .signup__agreement {
@@ -63,20 +65,7 @@ input::placeholder {
   padding-bottom: 10px;
 }
 
-.sign {
-  width: 120px;
-  height: 100px;
-  color: var(--font-color);
-  float: right;
-  margin-top: 32px;
-  margin-right: 120px;
-  font-weight: 400;
-  display: block;
-  font-size: 20px;
-  font-family: "Abril Fatface", cursive;
-  font-family: "Merriweather", serif;
-}
-button {
+.signup-btn__confirm {
   margin: 0 auto;
   background: #00587a;
   color: #fff;
@@ -90,12 +79,12 @@ button {
   border-radius: 30px;
   margin: 0 auto;
 }
-button:hover {
+.signup-btn__confirm:hover {
   background: #fff;
   color: skyblue;
 }
-button:before,
-button:after {
+.signup-btn__confirm:before,
+.signup-btn__confirm:after {
   content: "";
   top: 0;
   right: 0;
@@ -104,14 +93,14 @@ button:after {
   background: #1aab8a;
   transition: 400ms ease all;
 }
-button:after {
+.signup-btn__confirm:after {
   right: inherit;
   top: inherit;
   left: 0;
   bottom: 0;
 }
-button:hover:before,
-button:hover:after {
+.signup-btn__confirm:hover:before,
+.signup-btn__confirm:hover:after {
   width: 100%;
   transition: 800ms ease all;
 }
@@ -126,12 +115,12 @@ button:hover:after {
   margin-top: 45px;
 }
 
-.login {
+.SignUp-login {
   position: absolute;
   right: 80px;
 }
 
-.login__btn {
+.SignUp-login__btn {
   width: 140px;
   height: 45px;
   font-family: "Roboto", sans-serif;
@@ -149,7 +138,7 @@ button:hover:after {
   outline: none;
 }
 
-.login__btn:hover {
+.SignUp-login__btn:hover {
   background-color: white;
   box-shadow: 0px 15px 20px rgba(34, 147, 223, 0.4);
   color: skyblue;
@@ -169,7 +158,6 @@ button:hover:after {
   height: 100%;
   background: #fff;
   padding-bottom: 5px;
-  box-shadow: 10px 10px 0 0 skyblue;
   transition: width 0.3s ease;
 }
 
@@ -183,25 +171,16 @@ input[type="checkbox"] {
 
 input[type="checkbox"] + label {
   padding-left: 30px;
-  text-shadow: 1px 1px 0 black;
   transition: color 0.3s ease;
+  font-size: 20px;
 }
 
 input[type="checkbox"]:checked + label {
-  color: #e06969;
+  color: red;
 }
 
 input[type="checkbox"]:checked ~ .bg {
   width: 100%;
-}
-
-input[type="checkbox"]:checked ~ .bg:hover {
-  box-shadow: 3px 3px 0 0 green;
-}
-
-input[type="checkbox"] + label .qmark {
-  opacity: 1;
-  transition: opacity 0.2s ease;
 }
 
 input[type="checkbox"]:checked + label .qmark {
@@ -215,11 +194,7 @@ input[type="checkbox"] + label .fstop {
   transition: opacity 0.2s ease;
 }
 
-input[type="checkbox"]:checked + label .fstop {
-  opacity: 1;
-  color: #e06969;
-}
-.form-agree_checkbox {
+.signUp-form-agree_checkbox {
   padding-top: 25px;
   font-size: 20px;
   padding-bottom: 10px;

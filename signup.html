@@ -14,43 +14,49 @@
         <a href="main.html" class="logo__link">
           <h1>WAP</h1>
         </a>
-        <div class="login">
-          <button class="login__btn">LogIn</button>
+        <div class="SignUp-login">
+          <button class="SignUp-login__btn">LogIn</button>
         </div>
       </div>
     </div>
 
-    <div class="input">
+    <div class="SignUp--input">
       <div class="SignUp__header">
         <h2>Sign UP</h2>
       </div>
       <input
         name="email"
-        class="input__id"
+        class="signUp--input__id"
         autocomplete="username"
         placeholder="이메일 주소를 입력해주세요"
+        onfocus="this.placeholder=''"
+        onblur="this.placeholder='이메일 주소를 입력해주세요'"
         type="email"
         value=""
       />
       <input
         name="password"
-        class="input__pw"
+        class="signUp--input__pw"
         autocomplete="new-password"
         placeholder="비밀번호를 입력해주세요"
+        onfocus="this.placeholder=''"
+        onblur="this.placeholder='비밀번호를 입력해주세요'"
         type="password"
         value=""
       />
       <input
         name="confirmPassword"
-        class="input__pw"
+        class="signUp--input__pw"
         autocomplete="new-password"
         placeholder="비밀번호를 다시 한번 입력해주세요"
+        onfocus="this.placeholder=''"
+        onblur="this.placeholder='비밀번호를 다시 한번 입력해주세요'"
         type="password"
         value=""
       />
       <!--agreement-->
       <div class="signup__agreement">
-        <div class="form__agreement">
+        <div class="signUp--form__agreement">
           가입하면
           <a href="#" class="font-weight-bold" target="_blank">이용 약관</a>
           및
@@ -60,8 +66,8 @@
           에 동의하게 됩니다
         </div>
         <!--                          구분                     -->
-        <div class="form-agree">
-          <div class="form-agree_checkbox">
+        <div class="signUp-form-agree">
+          <div class="signUp-form-agree_checkbox">
             만 14세 이상 회원가입에 동의합니다(필수)
           </div>
           <div class="centered">
@@ -74,7 +80,7 @@
           </div>
           <br />
           <div class="form-agreement">
-            <div class="form-agree_checkbox">
+            <div class="signUp-form-agree_checkbox">
               WeAreProgrammers의 소식을 허용하겠습니다(선택)
             </div>
             <div class="centered">
@@ -91,7 +97,9 @@
     </div>
 
     <div class="signup-btn">
-      <button class="signup-btn__confirm">회원가입 완료</button>
+      <button class="signup-btn__confirm">
+        <a href="signUp_Finish.html">회원가입 완료</a>
+      </button>
     </div>
   </body>
 </html>
