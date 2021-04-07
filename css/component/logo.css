@@ -1,0 +1,9 @@
+.logo{
+   font-size: 40px;
+   display: flex;
+   align-items: center;
+   padding: 30px;
+   font-weight: 700;
+   font-family: 'Abril Fatface',cursive;
+}
+
