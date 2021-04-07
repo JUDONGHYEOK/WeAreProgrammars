@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
    background-color: var(--blue);
 }
@@ -24,3 +25,35 @@ body {
 
 
 
+=======
+.nav {
+  box-sizing: border-box;
+  width: 50%;
+  height: 70px;
+  font-family: "Abril Fatface", cursive;
+  font-family: "Merriweather", serif;
+  margin-left: 5%;
+}
+
+.nav__item {
+  padding: 10px;
+}
+
+.nav__item:first-child {
+  margin-left: 0;
+}
+.nav__link {
+  display: block;
+  padding: 20px 0px;
+  font-size: 20px;
+  color: var(--font-color);
+}
+
+.nav__item:hover {
+  text-decoration: underline;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+>>>>>>> bd6cfe41407f4daf5f1c42c814fd62686afe7754
