@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+.sign{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding: 30px;
+}
+
+.sign__list{
+   display: block;
+}
+
+.sign__item{
+   padding-top: 15px;
+=======
 .sign {
   box-sizing: border-box;
   height: 70px;
@@ -19,6 +34,7 @@
   padding-top: 15px;
   display: none;
   padding-left: 25px;
+>>>>>>> bd6cfe41407f4daf5f1c42c814fd62686afe7754
 }
 @keyframes sign-on {
   from {

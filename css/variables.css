@@ -1,6 +1,12 @@
 :root {
+<<<<<<< HEAD
+   --blue : #1135ce;
+   --font-color: #fbe5c9;
+ }
+=======
 
   --blue: #1135ce;
   --font-color: #fbe5c9;
 }
 
+>>>>>>> bd6cfe41407f4daf5f1c42c814fd62686afe7754

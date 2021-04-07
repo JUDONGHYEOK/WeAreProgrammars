@@ -7,10 +7,8 @@
 @import "component/nav.css";
 
 /*screens*/
-@import "screens/main.css";
 @import "screens/sign.css";
 @import "screens/login.css";
-@import "screens/sign-login.css";
 @import "screens/splash.css";
 
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
