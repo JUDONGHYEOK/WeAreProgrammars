@@ -22,8 +22,4 @@ function init() {
   iconContainer.addEventListener("mouseout", handleOut);
   iconContainer.addEventListener("click", handleClick);
 }
-<<<<<<< HEAD
 init();
-=======
-init();
->>>>>>> bd6cfe41407f4daf5f1c42c814fd62686afe7754
