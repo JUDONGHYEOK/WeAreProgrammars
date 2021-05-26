@@ -6,9 +6,6 @@
 @import "component/nav.css";
 
 /*screens*/
-@import "screens/sign.css";
-@import "screens/login.css";
-@import "screens/splash.css";
 @import "screens/signup.css";
 @import "screens/signup__finish.css";
 
