@@ -34,6 +34,17 @@ input::placeholder {
   border-bottom: 1px white solid;
   color: white;
 }
+.signUp--input__name {
+  margin-bottom: 50px;
+  border-radius: 5px;
+  width: 500px;
+  height: 40px;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px white solid;
+  color: white;
+}
 .signUp--input__pw {
   margin-bottom: 15px;
   border-radius: 5px;
@@ -110,9 +121,9 @@ input::placeholder {
   margin: 0 auto;
 }
 .signup-btn {
-  padding-top: 80px;
+  padding-top: 150px;
   padding-bottom: 30px;
-  margin-top: 45px;
+  margin-top: 100px;
 }
 
 .SignUp-login {
