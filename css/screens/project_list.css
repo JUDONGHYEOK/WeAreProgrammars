@@ -1,0 +1,33 @@
+.project_list {
+  background-color: inherit;
+  opacity: 0.8;
+  margin: 15px;
+  height: 500px;
+  border-radius: 1px solid black;
+}
+.project_list_main {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.project_list_main-name {
+  color: white;
+  font-weight: 500;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.project_list_form {
+  display: flex;
+  font-weight: 400;
+  font-size: 25px;
+  color: aliceblue;
+  justify-content: space-around;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+}
+.project_list_list {
+  background-color: white;
+  height: 300px;
+  margin: 15px;
+}

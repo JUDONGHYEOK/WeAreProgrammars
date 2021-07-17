@@ -1,0 +1,20 @@
+.btn__link {
+  width: 80px;
+  height: 40px;
+  font-size: 11px;
+  background-color: var(--font-color);
+  letter-spacing: 2.5px;
+  color: black;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+}
+
+.btn__link:hover {
+  background-color: white;
+  box-shadow: 0px 15px 20px rgba(34, 147, 223, 0.4);
+  color: skyblue;
+  /* transform: translateY(-7px); */
+}
