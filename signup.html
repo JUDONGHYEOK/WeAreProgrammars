@@ -9,27 +9,23 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="header">
-      <div class="nav">
-        <div class="logo">
-           <a href="main.html" class="logo__link">
-              <h1>WAP</h1>
-           </a>
-        </div>
-        <div class="nav-list">
-           
-        </div>
-        <div class="sign">
-           <div><a href="#" class="sign__link--focused"></a>SIGN UP</div>
-        </div>
-     </div>
+    <div class="nav">
+      <div class="logo">
+        <a href="main.html" class="logo__link">
+          <h1>WAP</h1>
+        </a>
+      </div>
+      <div class="nav-list"></div>
+      <div class="sign">
+        <div><a href="#" class="sign__link--focused"></a>Log In</div>
+      </div>
     </div>
 
     <div class="SignUp--input">
       <div class="SignUp__header">
         <h2>Sign UP</h2>
       </div>
-      <form action="signUp_Finish.html">
+      <form action="">
         <input
           name="email"
           class="signUp--input__id"
@@ -59,7 +55,7 @@
           autocomplete="new-password"
           placeholder="비밀번호를 입력해주세요"
           onfocus="this.placeholder=''"
-          onblur="this.placeholder='비밀번호를 입력해주세요'"
+          onblur="this.placeholder=`비밀번호를 입력해주세요`"
           type="password"
           value=""
         />

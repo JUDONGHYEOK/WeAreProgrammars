@@ -1,23 +1,9 @@
-<<<<<<< HEAD
-.logo{
-   font-size: 40px;
-   display: flex;
-   align-items: center;
-   padding: 30px;
-   font-weight: 700;
-   font-family: 'Abril Fatface',cursive;
-=======
 .logo {
-  width: 10%;
-  height: 70px;
-  text-align: center;
-  margin-left: 10px;
-}
-
-.logo__link {
-  color: var(--font-color);
-  font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
+  display: flex;
+  font-weight: 800;
   font-family: "Abril Fatface", cursive;
->>>>>>> bd6cfe41407f4daf5f1c42c814fd62686afe7754
+  height: 60px;
+  align-items: center;
+  padding-left: 40px;
 }
